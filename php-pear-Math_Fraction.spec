@@ -13,7 +13,7 @@ License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	9c84e6f4ae9427ab0824907bc6c9c2ff
-URL:		http://pear.php.net/package/CMath_Fraction/
+URL:		http://pear.php.net/package/Math_Fraction/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
 BuildArch:	noarch
@@ -23,11 +23,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Classes that represent and manipulate fractions (x = a/b).
 
 The Math_FractionOp static class contains definitions for:
-- basic arithmetic operations
-- comparing fractions
+- basic arithmetic operations,
+- comparing fractions,
 - greatest common divisor (gcd) and least common multiple (lcm) of two
-  integers
-- simplifying (reducing) and getting the reciprocal of a fraction
+  integers,
+- simplifying (reducing) and getting the reciprocal of a fraction,
 - converting a float to fraction.
 
 In PEAR status of this package is: %{_status}.
@@ -36,12 +36,12 @@ In PEAR status of this package is: %{_status}.
 Klasy do przedstawiania i manipulowania u³amkami (x = a/b).
 
 Statyczna klasa Math_FractionOp zawiera definicje dla:
-- podstawowych operacji arytmetycznych
-- porównywania u³amków
+- podstawowych operacji arytmetycznych,
+- porównywania u³amków,
 - najwiêkszego wspólnego dzielnika (NWD) i najmniejszej wspólnej
-  wielokrotno¶ci (NWM) dwóch liczb
-- upraszczanie (skracanie) i wydobywanie (...) u³amka 
-- konwersja liczby na u³amek
+  wielokrotno¶ci (NWM) dwóch liczb,
+- upraszczanie (skracanie) i obliczanie odwrotno¶ci u³amka,
+- konwersja liczby na u³amek.
 
 Ta klasa ma w PEAR status: %{_status}.
 

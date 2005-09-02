@@ -1,18 +1,18 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		Math
 %define		_subclass	Fraction
-%define		_status		alpha
+%define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - Classes that represent and manipulate fractions
 Summary(pl):	%{_pearname} - Klasy do przedstawiania i manipulowania u³amkami
 Name:		php-pear-%{_pearname}
-Version:	0.3.0
+Version:	0.4.0
 Release:	1
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	9c84e6f4ae9427ab0824907bc6c9c2ff
+# Source0-md5:	2c1f57a50db75f7e489fbd0166cb4cf6
 URL:		http://pear.php.net/package/Math_Fraction/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear

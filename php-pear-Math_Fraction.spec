@@ -8,7 +8,7 @@ Summary:	%{_pearname} - Classes that represent and manipulate fractions
 Summary(pl):	%{_pearname} - Klasy do przedstawiania i manipulowania u³amkami
 Name:		php-pear-%{_pearname}
 Version:	0.4.0
-Release:	1.1
+Release:	2
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz

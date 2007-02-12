@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - Classes that represent and manipulate fractions
-Summary(pl):	%{_pearname} - Klasy do przedstawiania i manipulowania u砤mkami
+Summary(pl.UTF-8):   %{_pearname} - Klasy do przedstawiania i manipulowania u艂amkami
 Name:		php-pear-%{_pearname}
 Version:	0.4.0
 Release:	3
@@ -34,16 +34,16 @@ The Math_FractionOp static class contains definitions for:
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Klasy do przedstawiania i manipulowania u砤mkami (x = a/b).
+%description -l pl.UTF-8
+Klasy do przedstawiania i manipulowania u艂amkami (x = a/b).
 
 Statyczna klasa Math_FractionOp zawiera definicje dla:
 - podstawowych operacji arytmetycznych,
-- por體nywania u砤mk體,
-- najwi阫szego wsp髄nego dzielnika (NWD) i najmniejszej wsp髄nej
-  wielokrotno禼i (NWM) dw骳h liczb,
-- upraszczanie (skracanie) i obliczanie odwrotno禼i u砤mka,
-- konwersja liczby na u砤mek.
+- por贸wnywania u艂amk贸w,
+- najwi臋kszego wsp贸lnego dzielnika (NWD) i najmniejszej wsp贸lnej
+  wielokrotno艣ci (NWM) dw贸ch liczb,
+- upraszczanie (skracanie) i obliczanie odwrotno艣ci u艂amka,
+- konwersja liczby na u艂amek.
 
 Ta klasa ma w PEAR status: %{_status}.
 

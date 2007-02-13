@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - Classes that represent and manipulate fractions
-Summary(pl.UTF-8):   %{_pearname} - Klasy do przedstawiania i manipulowania ułamkami
+Summary(pl.UTF-8):	%{_pearname} - Klasy do przedstawiania i manipulowania ułamkami
 Name:		php-pear-%{_pearname}
 Version:	0.4.0
 Release:	3

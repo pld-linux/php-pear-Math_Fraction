@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - Classes that represent and manipulate fractions
 Summary(pl.UTF-8):	%{_pearname} - Klasy do przedstawiania i manipulowania ułamkami
 Name:		php-pear-%{_pearname}
-Version:	0.4.0
-Release:	3
+Version:	0.4.1
+Release:	1
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	2c1f57a50db75f7e489fbd0166cb4cf6
+# Source0-md5:	351f230b32ec265cb48ff08165bf9652
 URL:		http://pear.php.net/package/Math_Fraction/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
